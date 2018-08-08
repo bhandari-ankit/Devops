@@ -8,8 +8,8 @@ host: localhost
           name: dmz
           description: an example ec2 group
           region: ap-south-1
-          AWSAccessKeyId=AKIAITA6KY7PP
-          AWSSecretKey=vYuCd+wo3XYzpcaf/KlvruLDamvvgpJ/RWEp0/
+          AWSAccessKeyId=AKI
+          AWSSecretKey=vY
 
           rules:
             - proto: tcp
