@@ -1,0 +1,19 @@
+---
+host: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+      - name: create a security group in 
+        ec2_group:
+          name: dmz
+          description: an example ec2 group
+          region: ap-south-1
+          AWSAccessKeyId=AKIAITA6KY7PPCVL2GJA
+          AWSSecretKey=vYuCd+wo3XYzpcaf/KlvruLDamvvgpJ/RWEp099/
+
+          rules:
+            - proto: tcp
+              from_port: 80
+              to_port: 80
+              cidr_ip: 0.0.0.0/0
+        register: security_group

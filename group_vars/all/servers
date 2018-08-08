@@ -1,0 +1,7 @@
+---
+ansible_ssh_user: root
+
+#aws_access_key: AKIAITA6KY7PPCVL2GJA
+#aws_secret_key: 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
+#key_name:contact-ai-mumbai.pem
+#aws_region: ap-south-1
